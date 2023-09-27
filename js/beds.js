@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 // Get data from Google Sheet and post to page
 function populateList() {
-	let url = 'https://api.sheety.co/f4f2201dd61223d70a87eb8b4df9ac9c/fingerLakesBedBoard/organization';
+	let url = 'https://api.sheety.co/0418c7a212521ba27b2369bb8682b4af/bedFinderGoogleSheet/organization';
 	fetch(url)
 	.then((response) => response.json())
 	.then(json => {
